@@ -29,7 +29,7 @@ objects:
         spec:
           containers:
             - name: migration-planner-ui
-              image: ${MIGRATION_PLANNER_UI_IMAGE}:${IMAGE_TAG}
+              image: "${MIGRATION_PLANNER_UI_IMAGE}:${IMAGE_TAG}"
               imagePullPolicy: Always
               ports:
                 - containerPort: 8080
